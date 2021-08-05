@@ -1,0 +1,42 @@
+.big{
+    color: blue;
+}
+#b325{
+    border: 1px solid black;
+}
+.b326{
+    border: 1px solid black;
+}
+#b325, .b326, .b329{
+    font-weight: bolder;
+}
+p{
+    background-color: yellow;
+}
+.asteroid:hover{
+    background-color: tomato;
+}
+.cont1, .cont2{
+    display:flex;
+    flex-direction: row;
+    padding: 15px 50px;
+    border:  rgb(15, 166, 236) 2px solid;
+    margin: 50px;
+    height: 100px;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+.doboz, .dobozz{
+    height: 70px;
+    width: 70px;
+}
+.doboz{
+    background-color: rgb(15, 166, 236);
+}
+.dobozz{
+    background-color: purple;
+}
+.cont2{
+    background-color: orange;
+}
